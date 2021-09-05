@@ -18,7 +18,11 @@ html {
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #fff;
+  background-color: hsla(217, 26%, 64%, 0.384);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .img {
@@ -43,7 +47,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
-  background-color: hsla(217, 26%, 64%, 0.384);
   padding: 3rem;
   border: 0px solid;
   border-radius: 0.8rem;
@@ -113,4 +116,13 @@ h4 {
 .common:hover {
   transform: translateY(-1rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
