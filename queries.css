@@ -1,0 +1,66 @@
+@media (max-width: 63em) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .kira {
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+  }
+}
+
+@media (max-width: 49em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .jonathan {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  .jeanette {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+
+  .daniel {
+    grid-column: 1 / -1;
+  }
+
+  .patrick {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+  }
+
+  .kira {
+    grid-row: 4 / 5;
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .jeanette {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+  }
+  .patrick {
+    grid-row: 4 / 5;
+    grid-column: 1 / -1;
+  }
+  .kira {
+    grid-row: 5 / 6;
+    grid-column: 1 / -1;
+  }
+}
